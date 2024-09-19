@@ -1,5 +1,6 @@
 import AccordianComponent from "./AccordianComponent.js";
 import { useState } from "react";
+
 const faqs = [
   {
     title: "Where are these chairs assembled?",

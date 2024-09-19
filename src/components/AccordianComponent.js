@@ -13,9 +13,8 @@ export default function AccordianComponent({
         index === currOpen ? "accordian--open" : ""
       }`}
       onClick={() => {
-        if (index === null || index !== currOpen) {
-          setCurrOpen(index);
-        } else setCurrOpen(null);
+        if (index === null || index !== currOpen) setCurrOpen(index);
+        else setCurrOpen(null);
       }}
     >
       <div className="accordian-title--div">
